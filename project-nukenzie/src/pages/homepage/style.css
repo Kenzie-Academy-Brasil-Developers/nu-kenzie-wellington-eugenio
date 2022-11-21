@@ -5,7 +5,14 @@
     color:#FFFFFF;
     display: flex;
     align-items: center;
-    
+    justify-content: center;
+}
+
+.homecontainer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .homedesc{
@@ -42,8 +49,18 @@
 }
 
 @media(max-width:900px){
-    .homedesc{
+    
+    .homecontainer{
         width: 90%;
-        align-items: center;
+        flex-direction: column;
     }
-}
+    .homedesc{
+        width: 100%;
+        align-items: center;
+        margin-top: 5rem;
+    }
+
+    .App-logo{
+        width: 80%;
+    }
+}    
