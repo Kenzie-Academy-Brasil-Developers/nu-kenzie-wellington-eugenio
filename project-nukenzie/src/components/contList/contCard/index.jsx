@@ -1,4 +1,5 @@
 import React from 'react'
+import trash from './trash.svg'
 import "./style.css"
 
 const ContCard = ({transition, removetransition}) => {
@@ -10,7 +11,7 @@ const ContCard = ({transition, removetransition}) => {
       </div>
       <div className='cardValue'>
         <h3 className='moneytext'>R$ {transition.money},00</h3>
-        <button className='btnremove' onClick={()=> removetransition(transition.title)}>X</button>
+        <button className='btnremove' onClick={()=> removetransition(transition.title)}><img src={trash} alt="" /></button>
       </div>
       
     </li>

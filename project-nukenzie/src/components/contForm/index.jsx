@@ -45,7 +45,7 @@ const ContForm = ({categoriesList, addTransition}) => {
           </select>
         </div>
       </div>
-      <button className='btnform' type="submit">Insetir valor</button>
+      <button className='btnform' type="submit">Inserir valor</button>
       
     </form>
   )
