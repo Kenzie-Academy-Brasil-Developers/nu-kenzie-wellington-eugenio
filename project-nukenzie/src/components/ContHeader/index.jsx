@@ -1,13 +1,16 @@
 import React from 'react'
+import "./style.css"
 
 const ContHead = ({setLogin}) => {
   return (
-    <div>
+    <div className='header'>
+      <div className='headcont'>
         <div className='logoBlack'>
-            <h2 className='Nu'>Nu</h2>
-            <h2 className='logoText'>Kenzie</h2>
+          <h2 className='Nu'>Nu</h2>
+          <h2 className='logoText'>Kenzie</h2>
         </div>
-        <button onClick={ ()=> setLogin(false)}>Sair</button>
+        <button className='btnout' onClick={ ()=> setLogin(false)}>Sair</button>
+       </div>
     </div>
   )
 }

@@ -1,0 +1,85 @@
+.formTransition{
+    width: 22.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding:2rem 1rem;
+    border: 1px solid #e9ecef;
+
+}
+
+.formdesc{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+input{
+    height: 2.5rem;
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 0.25rem;
+    padding-left: 0.5rem;
+}
+
+.exemple{
+    color:#868E96;
+}
+
+.formValue{
+    width: 50%;
+}
+
+.formEntries{
+    display: flex;
+    gap: 0.25rem;
+}
+
+.moneyEntry{
+    display: flex;
+    width: 100%;
+    background-color: #e9ecef;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.moneyEntry > input {
+    width: 70%;
+}
+
+.moneyEntry>p{
+    font-weight: 800;
+}
+
+select{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.options{
+    width: 100%;
+    height: 2.5rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.btnform{
+    height: 2.5rem;
+    background-color: #FD377E ;
+    color: #e9ecef;
+    font-size: 1rem;
+    font-weight: 800;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.btnform:hover{
+    background-color: #E34981;
+}

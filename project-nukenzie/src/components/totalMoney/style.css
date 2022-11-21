@@ -1,0 +1,21 @@
+.totaly{
+    width: 22.7rem;
+    height: 6rem;
+    border: 1px solid #E9ECEF;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.moneydesc{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.moneyvalue{
+    display: flex;
+    gap: 2rem;
+    color: #FD377E;
+}

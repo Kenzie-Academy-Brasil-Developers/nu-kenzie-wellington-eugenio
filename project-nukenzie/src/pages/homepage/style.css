@@ -1,0 +1,42 @@
+.homeDiv{
+    width: 100vw;
+    height: 100vh;
+    background-color:#212529 ;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    
+}
+
+.homedesc{
+    margin: 0 auto;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.logo{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.logo>h2{
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.nu{
+    color: #FD377E;
+}
+
+.acess{
+    width: 15rem;
+    height: 3rem;
+    background-color: #FD377E;
+    border: none;
+    border-radius: 0.25rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 800;
+}

@@ -1,15 +1,16 @@
 import React from 'react'
+import "./style.css"
 
 const ContCard = ({transition, removetransition}) => {
   return (
-    <li key={transition.title}>
-      <div>
-        <h3>{transition.title}</h3>
-        <p>{transition.category}</p>
+    <li className='card' key={transition.title}>
+      <div className='cardDesc'>
+        <h3 className='cardtittle'>{transition.title}</h3>
+        <p className='ctgText'>{transition.category}</p>
       </div>
-      <div>
-        <h3>{transition.money}</h3>
-        <button onClick={()=> removetransition(transition.title)}>remover</button>
+      <div className='cardValue'>
+        <h3 className='moneytext'>R$ {transition.money},00</h3>
+        <button className='btnremove' onClick={()=> removetransition(transition.title)}>X</button>
       </div>
       
     </li>

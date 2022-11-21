@@ -1,0 +1,52 @@
+@media (max-widht=900px) {
+    .card{
+        width: 80%;
+    }
+    
+}
+
+.card{
+    width: 35rem;
+    height: 5.5rem;
+    border-radius: 0.25rem;
+    background-color: #F8F9FA;
+    border-left: 0.25rem solid #03B898;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.cardDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+
+.cardValue{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.out{
+    border-left: 0.25rem solid #868E96
+}
+
+.btnremove{
+    width: 1.6rem;
+    height: 1.6rem;
+    font-size: 16px;
+    font-weight: 1000;
+    background-color: #E9ECEF;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.btnremove:hover{
+    background-color:#343A40;
+    color: #E9ECEF;
+}

@@ -1,0 +1,25 @@
+.transPage{
+    width: 100vw;
+    height: 100vh;
+}
+
+.transContainer{
+    width: 75rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.trasActions{
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.transations{
+    width: 35rem;
+    gap:1rem;
+}

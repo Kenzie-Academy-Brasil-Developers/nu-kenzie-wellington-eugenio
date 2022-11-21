@@ -1,15 +1,15 @@
 import React from 'react'
+import "./style.css"
 
 const CatTrasitions = ({categoriesList, setFilter}) => {
   return (
     <div className='transHeader'>
         <h2>Resumo financeiro</h2>
-        <ul>
-            <li onClick={()=>setFilter('todos')}>Todos</li>
+        <ul className='listCAt'>
+            <li className='catCard' onClick={()=>setFilter('todos')}>Todos</li>
             {categoriesList.map((category)=>(
-                <li key={category.value} onClick={()=>setFilter(category.value)}>{category.title}</li>
+                <li className='catCard' key={category.value} onClick={()=>setFilter(category.value)}>{category.title}</li>
             ))}
-            
         </ul>
     </div>
   )

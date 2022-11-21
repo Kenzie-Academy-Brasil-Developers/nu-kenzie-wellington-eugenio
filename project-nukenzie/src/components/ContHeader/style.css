@@ -1,0 +1,43 @@
+.header{
+    width: 100%;
+    height: 5.5rem;
+    box-shadow:1px 4px 15px 0px rgba(105, 104, 104, 0.9) ;
+}
+
+.headcont{
+    width: 75rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logoBlack{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.logoText{
+    font-weight: 800;
+}
+
+.Nu{
+    color:#FD377E;
+    font-weight: 800
+}
+
+.btnout{
+    width: 4rem;
+    height: 2.5rem;
+    border: none;
+    background-color:#E9ECEF ;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btnout:hover{
+    background-color: #343A40;
+    color: #E9ECEF;
+}

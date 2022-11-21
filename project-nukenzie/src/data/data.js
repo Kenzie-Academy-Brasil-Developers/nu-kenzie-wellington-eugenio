@@ -1,10 +1,10 @@
 export const categoriesData = [
     {
-        title: 'Entrada',
+        title: 'Entradas',
         value: 'entrada'
     },
     {
-      title: 'Saida',
+      title: 'Saidas',
       value: 'saida'  
     }
 ]
