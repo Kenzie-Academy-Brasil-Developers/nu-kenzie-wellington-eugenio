@@ -1,5 +1,5 @@
 .transHeader{
-    width: 35rem;
+    width: 100%;
     height: 4rem;
     display: flex;
     flex-direction: row;
@@ -29,4 +29,12 @@
 .catCard:hover{
     background-color: #FD377E;
     color: #E9ECEF;
+}
+
+@media(max-width:900px){
+    .transHeader{
+        flex-direction: column;
+        gap: 1px;
+        height: 8rem;
+    }
 }

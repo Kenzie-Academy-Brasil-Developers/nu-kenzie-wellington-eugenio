@@ -23,3 +23,24 @@
     width: 35rem;
     gap:1rem;
 }
+
+@media (max-width:900px){
+    .transPage{
+        width: 100%;
+    }
+
+    .transContainer{
+        width: 90%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .transations{
+        width: 90%;
+    }
+
+    .trasActions{
+        width: 90%;
+    }
+    
+}

@@ -41,3 +41,14 @@
     background-color: #343A40;
     color: #E9ECEF;
 }
+
+@media(max-width:900px){
+    .header{
+        width: 100vw;
+    }
+    .headcont{
+        width: 100%;
+        justify-content: center;
+        gap:10rem
+    }
+}

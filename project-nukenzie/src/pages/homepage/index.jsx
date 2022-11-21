@@ -1,6 +1,5 @@
 import React from 'react'
 import "./style.css"
-import Illustration from './illustration.svg'
 
 const HomePage = ({setLogin}) => {
   return (

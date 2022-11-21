@@ -9,6 +9,4 @@ export const categoriesData = [
     }
 ]
 
-export const transitionsData = [
-    
-]
+export const transitionsData = []
